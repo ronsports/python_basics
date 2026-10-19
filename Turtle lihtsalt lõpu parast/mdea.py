@@ -1,9 +1,11 @@
 import turtle
 
+turtle.speed(3)
 while True:
-    turtle.speed(3)
-    right(100)
-    left(90)
-    forward(20)
+    turtle.right(100)
+    turtle.left(90)
+    turtle.forward(20)
+    if turtle.xcor() == 0 and turtle.ycor() == 0:
+        break
 
-    exitonclick
+turtle.exitonclick()
