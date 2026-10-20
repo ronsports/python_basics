@@ -47,7 +47,7 @@ print("Väikseim punktisumma:", vaikseim_punkt, "Õpilane:", halvim_opilane)
 print("Õpilaste arv, kes said vähemalt 50 punkti:", vahemalt_50)
 print("Õpilaste arv, kes said alla 50 punkti:", alla_50)
 
-print("\nHINDED")
+print("HINDED")
 for i in range(len(nimed)):
     p = punktid[i]
     if p >= 90:
@@ -62,7 +62,7 @@ for i in range(len(nimed)):
         hinne = 1
     print(f"{nimed[i]} – {p} punkti – hinne {hinne}")
 
-print("\nÕPILASE OTSIMINE")
+print("ÕPILASE OTSIMINE")
 küsimus = input("Sisesta õpilase nimi: ")
 
 leitud = False
