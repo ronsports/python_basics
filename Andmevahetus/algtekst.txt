@@ -1,0 +1,5 @@
+Tere tulemast Pythoni kursusele!
+Täna õpime failidega töötamist.
+Failides saab andmeid säilitada.
+Python on populaarne programmeerimiskeel.
+Python sobib hästi algajatele.

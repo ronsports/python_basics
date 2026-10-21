@@ -1,0 +1,4 @@
+1: Tere tulemast Pythoni kursusele!
+2: Täna õpime failidega töötamist.
+3: Failides saab andmeid säilitada.
+
