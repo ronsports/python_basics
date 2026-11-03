@@ -1,11 +1,10 @@
 import turtle
 
-turtle.speed(3)
-while True:
-    turtle.right(100)
-    turtle.left(90)
-    turtle.forward(20)
-    if turtle.xcor() == 0 and turtle.ycor() == 0:
-        break
 
-turtle.exitonclick()
+for i in range(1000):
+  turtle.speed(50)
+  turtle.left(59)
+  turtle.forward(i)
+  turtle.left(19)
+  turtle.Terminator
+    
