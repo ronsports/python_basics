@@ -9,11 +9,15 @@ def main():
     kilohind = float(input("Sisesta kilohind (sendides): "))
 
     kokkueurodd = 0
+    paev = 1
 
     with open(failinimi, "r", encoding="UTF-8") as fail:
         for rida in fail:
             kastide_arv = int(rida.strip())
-            kokkueurodd += raha_eurodes(kastide_arv, kilohind)
+            eurot = raha_eurodes(kastide_arv, kilohind)
+            kokkueurodd += eurot
+            print(str(paev) + ". Päevaö sai." + str(eurot) + " eurot")
+            paev += 1
 
     print(f"Kokku: {round(kokkueurodd, 1)} eurot")
 
