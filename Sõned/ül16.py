@@ -2,7 +2,7 @@ küsimus = input("Kasutajanimi: ")
 
 if not (5 <= len(küsimus) <= 15):
     print("Viga: kasutajanime pikkus peab olema 5–15 tähemärki.")
-elif not küsimus.isalnum():
+elif not (küsimus.isalnum() and küsimus.isascii()):
     print("Viga: kasutajanimi tohib sisaldada ainult ladina tähti ja numbreid.")
 elif not küsimus[0].isalpha():
     print("Viga: kasutajanimi peab algama tähega.")

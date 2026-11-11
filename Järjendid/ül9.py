@@ -5,3 +5,6 @@ for i in range(1, 6):
     ostukorv.append(küsimus)
 
 print("Sinu ostukorv:", ostukorv)
+
+toodete_arv = len(ostukorv)
+print("Ostukorvis on tooteid:", toodete_arv)

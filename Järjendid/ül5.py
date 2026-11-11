@@ -3,6 +3,6 @@ küsimus = input("Sisesta oma nimi:")
 
 
 if küsimus in kasutajad:
-    print("reg")
+    print("registeeritud")
 else:
     print("fail")

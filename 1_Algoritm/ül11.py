@@ -1,7 +1,7 @@
 klassis = 8
 kommi = 53
 
-väärtused = kommi / klassis
-mitujääbüle = kommi % klassis
+igaopilanesaab = kommi // klassis
+mitu_jaab_ule = kommi % klassis
 
-print(str(float(väärtused)) + " " + str(int(mitujääbüle)))
+print(igaopilanesaab, mitu_jaab_ule)

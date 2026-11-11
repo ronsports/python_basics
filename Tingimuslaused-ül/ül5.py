@@ -1,6 +1,6 @@
-vanus = int(input("Sisesta vanus:"))
+vanus = int(input("Sisesta vanus: "))
 
-if vanus > 18:
+if vanus >= 18:
     print("Oled täisealine")
-elif vanus < 18:
+else:
     print("Oled alaealine")

@@ -1,5 +1,5 @@
 correct_username = "student"
-correct_password = "python123"
+correct_password = "python"
 
 küsimus = input("sisesta kasutajanimi: ")
 küsimus2 = input("sisesta parool: ")

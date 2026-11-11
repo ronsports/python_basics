@@ -12,12 +12,10 @@ for hinne in hinded:
     else:
         mitterahuldavad += 1
 
-# Leiame iga hinde (1 kuni 5) esinemise sageduse
 sagedused = {}
 for h in range(1, 6):
     sagedused[h] = hinded.count(h)
 
-# Leiame kõige sagedamini esineva hinde
 kige_sagedasem = 1
 for h in range(2, 6):
     if sagedused[h] > sagedused[kige_sagedasem]:
@@ -32,4 +30,4 @@ print(f"Mitterahuldavate hinnete (1–2) arv: {mitterahuldavad}")
 print("\nHinnete jaotus diagrammina:")
 for h in range(1, 6):
     tarnid = "*" * sagedused[h]
-    print(f"Hinne {h}: {tarnid}")
+    print(f"Hinne {h}: {tarnid} ({sagedused[h]} tk)")

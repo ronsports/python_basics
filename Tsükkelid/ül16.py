@@ -2,12 +2,12 @@
 kasutaja_parool = ""
 
 while kasutaja_parool != õige_parool:
- küsimus = input("Sisesta parool")
- if küsimus != õige_parool:
-  print("õige parool")
-  break
- else:
-  print("vale")
+    kasutaja_parool = input("Sisesta parool: ")
+    if kasutaja_parool == õige_parool:
+        print("õige parool")
+        break
+    else:
+        print("vale")
 
 
 

@@ -1,8 +1,8 @@
-print("tere")
-print("tere")
-print("tere")
-print("tere")
-print("tere")
+print("Tere!")
+print("Tere!")
+print("Tere!")
+print("Tere!")
+print("Tere!")
 ############
 i = 0
 while i < 5:

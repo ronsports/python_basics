@@ -4,7 +4,7 @@ tahemarke_kokku = len(tekst)
 ilma_tuhikuteta = len(tekst.replace(" ", ""))
 sonu = len(tekst.split())
 
-taishaalikud = "aeiouõäööuAEIOUÕÄÖÜ"
+taishaalikud = "aeiouõäöüuAEIOUÕÄÖÜ"
 taishaalikute_arv = 0
 numbrite_arv = 0
 

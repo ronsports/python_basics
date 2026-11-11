@@ -5,10 +5,20 @@ punktid = 0
 if len(küsimus) >= 8:
     punktid = punktid + 1
 
-if not küsimus.islower():
+on_suurtäht = False
+for märk in küsimus:
+    if märk.isupper():
+        on_suurtäht = True
+
+if on_suurtäht == True:
     punktid = punktid + 1
 
-if not küsimus.isupper():
+on_väiketäht = False
+for märk in küsimus:
+    if märk.islower():
+        on_väiketäht = True
+
+if on_väiketäht == True:
     punktid = punktid + 1
 
 on_number = False
@@ -38,9 +48,9 @@ else:
 
 if len(küsimus) < 8:
     print("Vähem kui kaheksa tähemärki.")
-if küsimus.islower():
+if on_suurtäht == False:
     print("Puudub suurtäht.")
-if küsimus.isupper():
+if on_väiketäht == False:
     print("Puudub väiketäht.")
 if on_number == False:
     print("Puudub number.")

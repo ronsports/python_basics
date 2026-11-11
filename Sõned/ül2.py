@@ -1,5 +1,6 @@
-küsimus = input("Eesnimi")
-küsimus2 = input("perekonna")
-küsimus3 = input("Täisnimi")
+küsimus = input("Eesnimi: ")
+küsimus2 = input("perekonna: ")
 
-print(küsimus + "", küsimus2)
+täisnimi = küsimus + " " + küsimus2
+
+print(täisnimi)

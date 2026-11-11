@@ -16,7 +16,7 @@ while True:
     
     if arv > 0:
         positiivsed += 1
-    else:
+    elif arv < 0:
         negatiivsed += 1
         
     if arv % 2 == 0:

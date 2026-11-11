@@ -5,4 +5,4 @@ lause_madal = küsimus.lower()
 täht_madal = küsimus2.lower()
 
 kordi = lause_madal.count(täht_madal)
-print("Täht {küsimus2} esineb {kordi} korda.")
+print(f"Täht {küsimus2} esineb {kordi} korda.")

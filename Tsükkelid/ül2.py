@@ -1,6 +1,6 @@
 i = 0
 
-while i < 5:
+while i < 6:
     print(i)
     i = i + 1 ### ma arvan et see printib jarjest 1-5 
     ### i algvaartus on 0/ i = 0
