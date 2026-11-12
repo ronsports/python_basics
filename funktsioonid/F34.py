@@ -1,6 +1,6 @@
 def arvuta():
     tulemus = 25
-    return tulemus
+    return tulemus ### ei sa teha returni ilma et oleks defineeritud.
 
 
 vastus = arvuta()

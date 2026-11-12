@@ -24,5 +24,5 @@ for sona, arv in top_sonad:
 
 print("\n" + aruanne)
 
-with open("tekstanaluus.txt", "w", encoding="utf-8") as f:
+with open("tekstianaluus.txt", "w", encoding="utf-8") as f:
     f.write(aruanne)

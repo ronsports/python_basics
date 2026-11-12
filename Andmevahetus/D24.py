@@ -1,6 +1,6 @@
 import urllib.request
 
-url = "https://docs.channel.io/allow-ads-help/en/articles/Ad-permission-message-appears-when-no-adblocker-is-installed-ba6d2a48?device=pc&domain=newsinlevels.com"
+url = "https://raw.githubusercontent.com/github/gitignore/main/Python.gitignore"
 
 with urllib.request.urlopen(url) as vastus:
     baidid = vastus.read()

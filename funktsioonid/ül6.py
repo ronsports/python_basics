@@ -4,5 +4,5 @@ def tervitus(): ### siin polnud :
 def lopp():
     print("Head aega!")
 
-tervitus() ### siin proovis callida variabali mis ei ole olemas 
+tervitus() ### siin proovis callida variabali mis ei ole olemas(tervituslopp)
 lopp()

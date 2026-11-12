@@ -6,7 +6,7 @@ def raha_eurodes(kastidearv, kilohindsentides):
 
 def main():
     failinimi = input("Sisesta failinimi: ")
-    kilohind = float(input("Sisesta kilohind (sendides): "))
+    kilohind = int(input("Sisesta kilohind (sendides): "))
 
     kokkueurodd = 0
     paev = 1

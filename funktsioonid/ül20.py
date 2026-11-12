@@ -10,4 +10,4 @@ def arvu_tyyp(arv):
 
 
 
-arvu_tyyp(3)
+print(arvu_tyyp(5))

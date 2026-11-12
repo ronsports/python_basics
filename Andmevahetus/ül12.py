@@ -14,14 +14,11 @@ try:
     kõrg = max(hinded)
     minim = min(hinded)
 
-    for hinne, nimi in õpilased:
+    for nimi, hinne in õpilased:
         if hinne >= 4:
+            print(nimi)
 
-         print(nimi)
-
+    print(õpilased, hinded, keskmine, kõrg, minim)
 
 except FileNotFoundError:
     print("pole")
-
-
-print(õpilased, hinded, keskmine, kõrg, minim)

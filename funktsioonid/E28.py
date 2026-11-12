@@ -1,5 +1,5 @@
 def taishaalikuid(tekst):
-    taishaalikud = "aeiouõäööuAEIOUÕÄÖÜ"
+    taishaalikud = "aeiouõäöüuAEIOUÕÄÖÜ"
     loendur = 0
     
     i = 0

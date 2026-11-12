@@ -1,4 +1,4 @@
-f = open("/home/ron/repositories/python_work/Andmevahetus/nimed.txt", encoding="UTF-8")
-ridade_arv = len(f.readline())
+f = open("nimed.txt", encoding="UTF-8")
+ridade_arv = len(f.readlines())
 print(f"failis on {ridade_arv} nime.")
-    
+f.close()

@@ -1,9 +1,9 @@
-f = open("Tooded.txt", "w", encoding="utf-8")
+f = open("ostunimekiri.txt", "w", encoding="utf-8")
 
 while True:
     küsimus = input("Sisesta toode: ")
     
-    if küsimus == "stop":
+    if küsimus == "stop" or küsimus == "STOP":
         break
         
     f.write(küsimus + "\n")

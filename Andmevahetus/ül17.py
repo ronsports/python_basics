@@ -1,4 +1,4 @@
-f = open("Tooded.txt", "a", encoding="utf-8")
+f = open("ostunimekiri.txt", "a", encoding="utf-8")
 
 while True:
     küsimus = input("Sisesta toode: ")
